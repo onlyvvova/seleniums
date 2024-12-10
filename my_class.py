@@ -45,6 +45,6 @@ class BankAccount:
 if __name__ == "__main__":
     account = BankAccount("Иван Иванов", 500)
     account.get_balance()
-    account.deposit(200)
-    account.withdraw(100)
+    account.deposit(500)
+    account.withdraw(300)
     account.withdraw(700)
